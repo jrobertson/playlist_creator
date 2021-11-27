@@ -8,10 +8,10 @@ require 'nokogiri'
 
 XSLT_DX = <<XSLT
 <?xml version='1.0' encoding='UTF-8'?>
-<xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='1.0'>
+<xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='1.0' xmlns="http://www.opengis.net/kml/2.2">
   <xsl:output method='xml' indent='yes' omit-xml-declaration='no'  encoding='utf-8'/>
   <xsl:template match='tracklist'>
-  <playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <playlist version="1">
     <tracklist>
       <xsl:apply-templates select='summary'/>
       <xsl:apply-templates select='records/track'/>
