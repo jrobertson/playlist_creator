@@ -19,11 +19,11 @@ Usage:
 &lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;playlist xmlns="http://xspf.org/ns/0/" version="1"&gt;
   &lt;tracklist&gt;
-    &lt;track xmlns=""&gt;
+    &lt;track&gt;
       &lt;title&gt;The Christmas Waltz&lt;/title&gt;
       &lt;location&gt;Disc 3 - 14 - The Christmas Waltz.mp3&lt;/location&gt;
     &lt;/track&gt;
-    &lt;track xmlns=""&gt;
+    &lt;track&gt;
       &lt;title&gt;We Three Kings&lt;/title&gt;
       &lt;location&gt;Disc 3 - 23 - We Three Kings.mp3&lt;/location&gt;
     &lt;/track&gt;
