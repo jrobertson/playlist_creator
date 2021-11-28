@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'playlist_creator'
-  s.version = '0.1.2'
+  s.version = '0.1.3'
   s.summary = 'Creates an XML Shareable Playlist Format (XSPF) file from plain text. '
   s.authors = ['James Robertson']
   s.files = Dir['lib/playlist_creator.rb']

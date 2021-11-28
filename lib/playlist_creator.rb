@@ -46,6 +46,18 @@ class PlaylistCreator
 
   end
 
+  def add(title: '', location: '')
+    @dx.create({title: title, location: location})
+  end
+
+  def delete(id)
+    @dx.delete id
+  end
+
+  def to_xml()
+    @dx.to_xml pretty: true
+  end
+
   def to_xspf()
     doc   = Nokogiri::XML(@dx.to_xml(pretty: true))
     xslt  = Nokogiri::XSLT(XSLT_DX)
